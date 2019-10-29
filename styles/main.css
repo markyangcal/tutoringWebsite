@@ -1,15 +1,23 @@
 body {
-  margin: 0;
-  font-family: arial;
+  margin-top: 50px;
+  font-family: "Comic Sans MS";
   text-decoration: none;
+  background-color: #ffeecc; /*light brown*/
 }
 
 header {
+  padding-top: 20px;
   background: #4da6ff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px grey;
 }
 
-h1, h2 {
-  margin: 0;
+h2 {
+  margin-top: 45px;
+  margin-bottom: 35px;
+  font-size: 20px;
 }
 
 nav ul li {
@@ -51,5 +59,28 @@ li.active {
 }
 
 a.active {
-  color: black;
+  color: #ffff4d;
+}
+
+/*section formatting for about page*/
+section div {
+  text-align: center;
+  background: #fff2e6; /*light orange*/
+  width: 100%;
+  margin: 1px;
+}
+
+p.about {
+  background: #fff2e6; /*light orange*/
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 30px;
+}
+
+/*section formatting for contact page*/
+p.contact {
+  background: #fff2e6; /*light orange*/
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 30px;
 }
